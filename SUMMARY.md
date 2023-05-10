@@ -1,6 +1,6 @@
 # Table of contents
 
-## HACKATHON 2023
+## HACKATHON
 * [Hackathon](guides/hackathon/README.md)
 
 
