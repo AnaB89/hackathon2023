@@ -2,7 +2,21 @@
 
 ## HACKATHON
 * [Hackathon](guides/hackathon/README.md)
-
+  * [UI Components](guides/hackathon/README_ui-components.md)
+    * [Buttons and Text](guides/hackathon/README_buttons-and-text.md)
+      * [Buttons](guides/hackathon/buttons.md)
+      <! -- 
+      * [Badge](guides/develop/application-design/ui-components/buttons-and-text/badge.md)
+      -->
+    * [Form Containers](guides/develop/application-design/ui-components/form-containers.md)
+    * [Input Controls](guides/develop/application-design/ui-components/input-controls/README.md)
+      * [Calendar](guides/develop/application-design/ui-components/input-controls/calendar.md)
+      * [Calendar Inline](guides/develop/application-design/ui-components/input-controls/calendar-inline.md)
+    * [Grids](guides/develop/application-design/ui-components/grids.md)
+    * [Media](guides/develop/application-design/ui-components/media.md)
+    * [Navigation](guides/develop/application-design/ui-components/navigation.md)
+    * [Visualization](guides/develop/application-design/ui-components/visualization.md)
+    * [Specialized Components](guides/develop/application-design/ui-components/specialized-components.md)
 
 ## Home
 * [Home](README.md)
