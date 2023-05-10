@@ -12,7 +12,7 @@ This guide will show how to use buttons in your applications. See how easy it is
 
 In the [Form Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/form-editor.md), drag the Button component from the Pallet onto the form.
 
-<figure><img src="../../../../images/exampleButton - Add Button (1).gif" alt=""><figcaption><p>Add Button</p></figcaption></figure>
+<! -- <figure><img src="../../../../images/exampleButton - Add Button (1).gif" alt=""><figcaption><p>Add Button</p></figcaption></figure> -->
 
 {% hint style="info" %}
 If the component does not appear in the pallet, it means you do not have the Bootstrap Components package installed. Click "Get more components" at the top of the pallet to open the [Servoy Package Manager](../../../../../reference/readme\_servoycore/page-3/package-manager.md) and install it.
@@ -34,12 +34,13 @@ The text displayed on a button can be modified by setting its [`text`](../../../
 
 Buttons, like many components, can display tooltip messages when a user hovers their cursor. Most often, this will just be plain text that describes what will happen on-click. In this case, just enter the value into the editor. For more options open the [Text Property Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/text-property-editor.md).
 
-<figure><img src="../../../../images/exampleButton - tooltipText.gif" alt=""><figcaption></figcaption></figure>
+<! -- <figure><img src="../../../../images/exampleButton - tooltipText.gif" alt=""><figcaption></figcaption></figure> -->
 
 {% hint style="info" %}
 Remember that text can also be dynamic, data-driven or localized. For more options, you can open edit the text property in the [Text Property Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/text-property-editor.md).
 {% endhint %}
 
+<! --
 ### Setting an Image / Font-Icon
 
 Many times, a button will be decorated with an image or font icon. To add an image to your button, edit the [`imageStyleClass`](../../../../../reference/readme\_servoyextensions/ui-components/buttons-and-text/button.md#imagestyleclass) property and choose the image style class of the font icon you wish to use. For example, enter a value of `fa fa-user-plus` to get a nice "Add User" icon.
@@ -47,6 +48,7 @@ Many times, a button will be decorated with an image or font icon. To add an ima
 <figure><img src="../../../../images/exampleButton - imageStyleClass.PNG" alt=""><figcaption></figcaption></figure>
 
 For more information, please see the [Font Icon](../../styling-and-themes/font-icons.md) section of the guide on [Styling and Themes](../../styling-and-themes/).
+-->
 
 ### Styling
 
