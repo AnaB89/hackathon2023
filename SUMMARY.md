@@ -6,15 +6,15 @@
     * [Buttons and Text](guides/hackathon/README_buttons-and-text.md)
       * [Buttons](guides/hackathon/buttons.md)
       <! -- * [Badge](guides/develop/application-design/ui-components/buttons-and-text/badge.md)-->
-    * [Form Containers](guides/develop/application-design/ui-components/form-containers.md)
-    * [Input Controls](guides/develop/application-design/ui-components/input-controls/README.md)
-      * [Calendar](guides/develop/application-design/ui-components/input-controls/calendar.md)
-      * [Calendar Inline](guides/develop/application-design/ui-components/input-controls/calendar-inline.md)
-    * [Grids](guides/develop/application-design/ui-components/grids.md)
-    * [Media](guides/develop/application-design/ui-components/media.md)
-    * [Navigation](guides/develop/application-design/ui-components/navigation.md)
-    * [Visualization](guides/develop/application-design/ui-components/visualization.md)
-    * [Specialized Components](guides/develop/application-design/ui-components/specialized-components.md)
+    * [Form Containers](guides/hackathon/README_form-containers.md)
+    * [Input Controls](guides/hackathon/README_input-controls.md)
+      <! -- * [Calendar](guides/develop/application-design/ui-components/input-controls/calendar.md) -->
+      * [Calendar Inline](guides/hackathon/calendarinline.md)
+    * [Grids](guides/hackathon/README_grids.md)
+    * [Media](guides/hackathon/README_media.md)
+    * [Navigation](guides/hackathon/README_navigation.md)
+    * [Visualization](guides/hackathon/README_visualization.md)
+    * [Specialized Components](guides/hackathon/README_specialized-components.md)
 
 ## Home
 * [Home](README.md)
