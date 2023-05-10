@@ -1,19 +1,12 @@
-
 ---
-
 description:  Guide for using checkboxes in your applications
-
 ---
-
-  
 
 # Checkbox
 
-  
 
 ## Overview
 
-  
 
 (can be changed to match your component:)
 
