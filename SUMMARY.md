@@ -1,9 +1,11 @@
 # Table of contents
 
-* [Home](README.md)
-
 ## HACKATHON 2023
 * [Hackathon](guides/hackathon/README.md)
+
+
+
+* [Home](README.md)
 
 ## GUIDES
 
