@@ -40,7 +40,7 @@ Buttons, like many components, can display tooltip messages when a user hovers t
 Remember that text can also be dynamic, data-driven or localized. For more options, you can open edit the text property in the [Text Property Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/text-property-editor.md).
 {% endhint %}
 
-<! --
+[
 ### Setting an Image / Font-Icon
 
 Many times, a button will be decorated with an image or font icon. To add an image to your button, edit the [`imageStyleClass`](../../../../../reference/readme\_servoyextensions/ui-components/buttons-and-text/button.md#imagestyleclass) property and choose the image style class of the font icon you wish to use. For example, enter a value of `fa fa-user-plus` to get a nice "Add User" icon.
@@ -48,7 +48,7 @@ Many times, a button will be decorated with an image or font icon. To add an ima
 <figure><img src="../../../../images/exampleButton - imageStyleClass.PNG" alt=""><figcaption></figcaption></figure>
 
 For more information, please see the [Font Icon](../../styling-and-themes/font-icons.md) section of the guide on [Styling and Themes](../../styling-and-themes/).
--->
+]: #
 
 ### Styling
 
