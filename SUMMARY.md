@@ -2,6 +2,8 @@
 
 * [Home](README.md)
 
+## HACKATHON 2023
+
 ## GUIDES
 
 * [Platform Overview](guides/readme\_overview.md)
