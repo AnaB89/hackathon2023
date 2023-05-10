@@ -3,6 +3,7 @@
 * [Home](README.md)
 
 ## HACKATHON 2023
+* [Hackathon](guides/hackathon/README.md)
 
 ## GUIDES
 
