@@ -41,6 +41,7 @@ The component offers the following API methods:
 | Method                                 | Params | Return | Description                    |
 | -------------------------------------- | ------ | ------ | ------------------------------ |
 | [requestFocus](button.md#requestfocus) |        |        | Sets the focus to this button. |
+| [addStyleClass](button.md#addstyleclass) |        |        | Add a style class to styleclass named property or other property marked as mainStyleClass in the spec |
 
 ## Properties Details
 
@@ -61,3 +62,4 @@ The component offers the following API methods:
 ## Methods Details
 
 ### requestFocus
+### addStyleClass
