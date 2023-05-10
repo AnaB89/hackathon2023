@@ -11,6 +11,7 @@
       <! -- * [Calendar](guides/develop/application-design/ui-components/input-controls/calendar.md) -->
       * [Calendar Inline](guides/hackathon/calendarinline.md)
       * [Checkbox](guides/hackathon/checkbox.md)
+      * [Switch](guides/hackathon/switchButton.md)
     * [Grids](guides/hackathon/README_grids.md)
     * [Media](guides/hackathon/README_media.md)
     * [Navigation](guides/hackathon/README_navigation.md)
