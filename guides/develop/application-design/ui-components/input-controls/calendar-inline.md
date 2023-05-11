@@ -47,8 +47,6 @@ Like most components, Calendar Inline has events, which allow you to execute som
 
 To handle the event, double-click the value for the `onDataChange` property in the [Properties Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/component-properties-editor.md). You will see the [Method Selection Wizard](../../../../../reference/readme\_servoycore/page-3/object-editors/method-selection-wizard.md). You'll have the option select an existing Method or create a new Method. The method will be called when the component's `onDataChange` event is fired and the [Event](../../../../../reference/readme\_servoycore/dev-api/application/jsevent.md) object will be passed to it.
 
-<figure><img src="images/calendar_inline_ondatachange.gif" alt=""><figcaption><p>Create a method to handle the onDataChange event</p></figcaption></figure>
-
 <figure><img src="images/calendar_inline_ondatachange2.gif" alt=""><figcaption><p>Create a method to handle the onDataChange event</p></figcaption></figure>
 
 ```javascript
