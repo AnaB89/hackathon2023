@@ -12,6 +12,7 @@
       * [Calendar Inline](guides/develop/application-design/ui-components/input-controls/calendar-inline.md)
       * [Checkbox](guides/develop/application-design/ui-components/input-controls/checkbox.md)
       * [Switch](guides/develop/application-design/ui-components/input-controls/switchButton.md)
+      * [Spinner](guides/develop/application-design/ui-components/input-controls/Spinner.md)
     * [Grids](guides/hackathon/README_grids.md)
     * [Media](guides/hackathon/README_media.md)
     * [Navigation](guides/hackathon/README_navigation.md)
