@@ -6,11 +6,11 @@ Inline calendar shows the date picker of the [calendar component](https://github
 
 ## Table of contents
 
-* [Inline calendar properties](inline-calendar.md#inline-calendar-properties)
-* [Inline calendar events](inline-calendar.md#inline-calendar-events)
-* [Inline calendar API](inline-calendar.md#inline-calendar-api)
+* [Inline calendar properties](inline-calendar.md#properties-summary)
+* [Inline calendar events](inline-calendar.md#events-summary)
+* [Inline calendar methods](inline-calendar.md#methods-summary)
 
-## Inline calendar properties
+## Properties Summary
 
 The component has the following properties:
 
@@ -22,20 +22,39 @@ The component has the following properties:
 | toolTipText  | String       |         | Tooltip text shown when hovering over the calendar (i18n is supported)         |
 | visible      | Boolean      | true    | Whether the calendar is visible or not                                         |
 
-## Inline calendar events
+## Events Summary
 
 The component allows to attach handlers for the following events:
 
 | Event        | Parameters                                  | Return  | Description                     |
 | ------------ | ------------------------------------------- | ------- | ------------------------------- |
-| onDataChange | oldValue:Date, newValue:Date, event:JSEvent | Boolean | Fired when the value is changed |
+| [onDataChange](inline-calendar#ondatachange) | oldValue:Date, newValue:Date, event:JSEvent | Boolean | Fired when the value is changed |
 
-## Inline calendar API
+## Methods Summary
 
 The component offers the following API methods:
 
 | Method        | Parameters                                      | Return | Description                                                          |
 | ------------- | ----------------------------------------------- | ------ | -------------------------------------------------------------------- |
-| disableDates  | dateArray:Date\[], keepInvalid:Boolean          |        | Sets a list of dates that cannot be selected in the picker           |
-| disableDays   | dayArray:Number\[], keepInvalid:Boolean         |        | Sets a list of days that cannot be selected in the picker            |
-| setMinMaxDate | minDate:Date, maxDate:Date, keepInvalid:Boolean |        | Sets the minimum and maximum date that can be selected in the picker |
+| [disableDates](inline-calendar#disabledates)  | dateArray:Date\[], keepInvalid:Boolean          |        | Sets a list of dates that cannot be selected in the picker           |
+| [disableDays](inline-calendar#disabledays)   | dayArray:Number\[], keepInvalid:Boolean         |        | Sets a list of days that cannot be selected in the picker            |
+| [setMinMaxDate](inline-calendar#setminmaxdate) | minDate:Date, maxDate:Date, keepInvalid:Boolean |        | Sets the minimum and maximum date that can be selected in the picker |
+
+
+## Properties Details
+
+### toolTipText
+
+### styleClass
+
+## Events Details
+
+### onDataChange
+
+## Methods Details
+
+### disableDates
+
+### disableDays
+
+### setMinMaxDate

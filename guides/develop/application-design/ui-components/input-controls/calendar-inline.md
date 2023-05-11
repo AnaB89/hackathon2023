@@ -7,22 +7,28 @@ description Guide for using the Calendar Inline in your applications
 
 ## Overview
 
-
 Calendar-Inline is an input control component. It allows a user us a date-picker to choose Date values for a bound data-provider.
-Similar to the Calendar component, the Calendar-Inline provides a date-picker interface to choose a date. The key difference is that the Calendar component is an input field that the shows the date-picker in a popup only when clicked; whereas the Calendar Inline shows the date-picker directly on the form
+Similar to the Calendar component, the Calendar-Inline provides a date-picker interface to choose a date. The key difference is that the Calendar component is an input field that the shows the date-picker in a popup only when clicked; whereas the Calendar Inline shows the date-picker directly on the form.
 Common use cases include selecting a value for a filter or search parameter.
 
 ## Get Started
 
+In the [Form Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/form-editor.md), drag the Calendar-Inline component from the Pallet onto the form.
 
+
+{% hint style="info" %}
+If the component does not appear in the pallet, it means you do not have the Bootstrap Components package installed. Click "Get more components" at the top of the pallet to open the [Servoy Package Manager](../../../../../reference/readme\_servoycore/page-3/package-manager.md) and install it.
+{% endhint %}
 
 ## Modifying Calendar Inline at Design-Time
 
-Calendar Inline, like all components, have properties which can be modified at design-time to set the appearance and behavior of the component. Select the componentName in the [Form Editor](..........referencereadme_servoycorepage-3object-editorsform-editor.md) to see a list of properties in the [Component Properties Editor](..........referencereadme_servoycorepage-3object-editorscomponent-properties-editor.md). Below are some common properties and how to set them at design-time.
+Calendar Inline, like all components, have properties which can be modified at design-time to set the appearance and behavior of the component. Select the Calendar Inline in the [Form Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/form-editor.md) to see a list of properties in the [Component Properties Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/component-properties-editor.md). Below are some common properties and how to set them at design-time.
 
+{% hint style="info" %}
+See the reference docs for [Calendar Inline](../../../../../reference/readme\_servoyextensions/ui-components/input-controls/inline-calendar.md) for a complete list of its [properties](../../../../../reference/readme\_servoyextensions/ui-components/input-controls/inline-calendar.md#properties-summary).
+{% endhint %}
 
-### Setting the toolTipText (tooltipText)
-
+### Setting the toolTipText
 
 Calendar Inline, like many components, can display tooltip messages when a user hovers their cursor. Most often, this will just be plain text that describes what will happen on-click. In this case, just enter the value into the editor. For more options open the [Text Property Editor](..........referencereadme_servoycorepage-3object-editorstext-property-editor.md).
 
