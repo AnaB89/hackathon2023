@@ -2,11 +2,11 @@
 
 ## Table of contents
 
-* [Spinner properties](spinner.md#spinner-properties)
-* [Spinner events](spinner.md#spinner-events)
-* [Spinner API](spinner.md#spinner-api)
+* [Spinner properties](spinner.md#properties-summary)
+* [Spinner events](spinner.md#events-summary)
+* [Spinner methods](spinner.md#methods-summary)
 
-## Spinner properties
+## Properties Summary
 
 The component has the following properties:
 
@@ -25,22 +25,50 @@ The component has the following properties:
 | valuelist        | valuelist    |         | The value list which offers the values presented                               |
 | visible          | Boolean      | true    | Whether the component is visible or not                                        |
 
-## Spinner events
+## Events Summary
 
 The component allows to attach handlers for the following events:
 
 | Event         | Parameters                                  | Return  | Description                          |
 | ------------- | ------------------------------------------- | ------- | ------------------------------------ |
-| onAction      | event:JSEvent                               |         | Fired when the enter key is hit      |
-| onDataChange  | oldValue:Date, newValue:Date, event:JSEvent | Boolean | Fired when the value is changed      |
-| onFocusGained | event:JSEvent                               |         | Fired when the component gets focus  |
-| onFocusLost   | event:JSEvent                               |         | Fired when the component loses focus |
-| onRightClick  | event:JSEvent                               |         | Fired for mouse right click          |
+| [onAction](spinner.md#onaction)       | event:JSEvent                               |         | Fired when the enter key is hit      |
+| [onDataChange](spinner.md#ondatachange)  | oldValue:Date, newValue:Date, event:JSEvent | Boolean | Fired when the value is changed      |
+| [onFocusGained](spinner.md#onfocusgained) | event:JSEvent                               |         | Fired when the component gets focus  |
+| [onFocusLost](spinner.md#onfocuslost)   | event:JSEvent                               |         | Fired when the component loses focus |
+| [onRightClick](spinner.md#onrightclick)  | event:JSEvent                               |         | Fired for mouse right click          |
 
-## Spinner API
+## Methods Summary
 
 The component offers the following API methods:
 
 | Method       | Parameters                             | Return | Description                       |
 | ------------ | -------------------------------------- | ------ | --------------------------------- |
-| requestFocus | mustExecuteOnFocusGainedMethod:Boolean |        | Sets the focus to this component. |
+| [requestFocus](spinner.md#requestfocus) | mustExecuteOnFocusGainedMethod:Boolean |        | Sets the focus to this component. |
+| [addStyleClass](spinner.md#addstyleclass) |            |        | Add a style class to styleclass named property or other property marked as mainStyleClass in the spec |
+
+
+## Properties Details
+
+### text
+
+### toolTipText
+
+### imageStyleClass
+
+## Events Details
+
+### onAction
+
+### onDataChange
+
+### onFocusGained
+
+### onFocusLost
+
+### onRightClick
+
+## Methods Details
+
+### requestFocus
+
+### addStyleClass
