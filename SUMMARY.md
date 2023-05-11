@@ -1,24 +1,5 @@
 # Table of contents
 
-## HACKATHON
-* [Hackathon](guides/hackathon/README.md)
-  * [UI Components](guides/hackathon/README_ui-components.md)
-    * [Buttons and Text](guides/hackathon/README_buttons-and-text.md)
-      * [Buttons](guides/develop/application-design/ui-components/buttons-and-text/buttons.md)
-      <! -- * [Badge](guides/develop/application-design/ui-components/buttons-and-text/badge.md)-->
-    * [Form Containers](guides/hackathon/README_form-containers.md)
-    * [Input Controls](guides/hackathon/README_input-controls.md)
-      <! -- * [Calendar](guides/develop/application-design/ui-components/input-controls/calendar.md) -->
-      * [Calendar Inline](guides/develop/application-design/ui-components/input-controls/calendar-inline.md)
-      * [Checkbox](guides/develop/application-design/ui-components/input-controls/checkbox.md)
-      * [Switch](guides/develop/application-design/ui-components/input-controls/switchButton.md)
-      * [Spinner](guides/develop/application-design/ui-components/input-controls/Spinner.md)
-    * [Grids](guides/hackathon/README_grids.md)
-    * [Media](guides/hackathon/README_media.md)
-    * [Navigation](guides/hackathon/README_navigation.md)
-    * [Visualization](guides/hackathon/README_visualization.md)
-    * [Specialized Components](guides/hackathon/README_specialized-components.md)
-
 ## Home
 * [Home](README.md)
 
@@ -38,12 +19,16 @@
       * [Form Components](guides/develop/application-design/forms/form-components.md)
     * [UI Components](guides/develop/application-design/ui-components/README.md)
       * [Buttons and Text](guides/develop/application-design/ui-components/buttons-and-text/README.md)
-        * [Buttons](guides/develop/application-design/ui-components/buttons-and-text/buttons-OLD.md)
-        * [Badge](guides/develop/application-design/ui-components/buttons-and-text/badge-OLD.md)
+        * [Buttons](guides/develop/application-design/ui-components/buttons-and-text/buttons.md)
+        <! -- * [Badge](guides/develop/application-design/ui-components/buttons-and-text/badge-OLD.md) -->
       * [Form Containers](guides/develop/application-design/ui-components/form-containers.md)
       * [Input Controls](guides/develop/application-design/ui-components/input-controls/README.md)
-        * [Calendar](guides/develop/application-design/ui-components/input-controls/calendar-OLD.md)
-        * [Calendar Inline](guides/develop/application-design/ui-components/input-controls/calendar-inline-OLD.md)
+        <! -- * [Calendar](guides/develop/application-design/ui-components/input-controls/calendar-OLD.md)-->
+        <! -- * [Calendar Inline](guides/develop/application-design/ui-components/input-controls/calendar-inline-OLD.md)-->
+        * [Calendar Inline](guides/develop/application-design/ui-components/input-controls/calendar-inline.md)
+        * [Checkbox](guides/develop/application-design/ui-components/input-controls/checkbox.md)
+        * [Switch](guides/develop/application-design/ui-components/input-controls/switchButton.md)
+        * [Spinner](guides/develop/application-design/ui-components/input-controls/Spinner.md)
       * [Grids](guides/develop/application-design/ui-components/grids.md)
       * [Media](guides/develop/application-design/ui-components/media.md)
       * [Navigation](guides/develop/application-design/ui-components/navigation.md)
