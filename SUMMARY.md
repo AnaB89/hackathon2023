@@ -9,9 +9,9 @@
     * [Form Containers](guides/hackathon/README_form-containers.md)
     * [Input Controls](guides/hackathon/README_input-controls.md)
       <! -- * [Calendar](guides/develop/application-design/ui-components/input-controls/calendar.md) -->
-      * [Calendar Inline](guides/hackathon/calendarinline.md)
-      * [Checkbox](guides/hackathon/checkbox.md)
-      * [Switch](guides/hackathon/switchButton.md)
+      * [Calendar Inline](guides/develop/application-design/ui-components/input-controls/calendar-inline.md)
+      * [Checkbox](guides/develop/application-design/ui-components/input-controls/checkbox.md)
+      * [Switch](guides/develop/application-design/ui-components/input-controls/switchButton.md)
     * [Grids](guides/hackathon/README_grids.md)
     * [Media](guides/hackathon/README_media.md)
     * [Navigation](guides/hackathon/README_navigation.md)
