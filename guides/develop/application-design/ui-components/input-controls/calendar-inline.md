@@ -49,6 +49,8 @@ To handle the event, double-click the value for the `onDataChange` property in t
 
 <figure><img src="images/calendar_inline_ondatachange.gif" alt=""><figcaption><p>Create a method to handle the onDataChange event</p></figcaption></figure>
 
+<figure><img src="images/calendar_inline_ondatachange2.gif" alt=""><figcaption><p>Create a method to handle the onDataChange event</p></figcaption></figure>
+
 ```javascript
 /**
  * @param {JSEvent} event
