@@ -17,7 +17,7 @@ To see a live sample of the component you can go [here](https://samples-dev.samp
 
 In the [Form Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/form-editor.md), drag the Calendar-Inline component from the Pallet onto the form.
 
-<figure><img src="/images/calendar_inline_create.gif" alt=""><figcaption><p>Add Calendar Inline</p></figcaption></figure>
+<figure><img src="images/calendar_inline_create.gif" alt=""><figcaption><p>Add Calendar Inline</p></figcaption></figure>
 
 {% hint style="info" %}
 If the component does not appear in the pallet, it means you do not have the Bootstrap Components package installed. Click "Get more components" at the top of the pallet to open the [Servoy Package Manager](../../../../../reference/readme\_servoycore/page-3/package-manager.md) and install it.
