@@ -51,7 +51,7 @@ For more information, please see the [Font Icon](../../styling-and-themes/font-i
 
 Like all components, a Button has a button can be styled using themes, variants and raw CSS. To apply any available style class, simply enter one or more space-delimited values for the `styleClass` property.
 
-For example, `styleClass="btn btn-default"`
+<img src="" alt="" data-size="original">For example, `styleClass="btn btn-default"`
 
 #### Button Variants
 
