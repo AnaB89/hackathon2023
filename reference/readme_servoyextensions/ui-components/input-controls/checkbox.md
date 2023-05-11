@@ -4,11 +4,11 @@
 
 ## Table of contents
 
-* [Checkbox properties](checkbox.md#checkbox-properties)
-* [Checkbox events](checkbox.md#checkbox-events)
-* [Checkbox API](checkbox.md#checkbox-api)
+* [Checkbox properties](checkbox.md#properties-summary)
+* [Checkbox events](checkbox.md#events-summary)
+* [Checkbox methods](checkbox.md#methods-summary)
 
-## Checkbox properties
+## Properties Summary
 
 The component has the following properties:
 
@@ -23,21 +23,47 @@ The component has the following properties:
 | toolTipText   | String       |         | Tooltip text shown when hovering over the calendar (i18n is supported)         |
 | visible       | Boolean      | true    | Whether the component is visible or not                                        |
 
-## Checkbox events
+## Events Summary
 
 The component allows to attach handlers for the following events:
 
 | Event         | Parameters                                  | Return  | Description                         |
 | ------------- | ------------------------------------------- | ------- | ----------------------------------- |
-| onAction      | event:JSEvent                               |         | Fired when the enter key is hit     |
-| onDataChange  | oldValue:Date, newValue:Date, event:JSEvent | Boolean | Fired when the value is changed     |
-| onFocusGained | event:JSEvent                               |         | Fired when the calendar gets focus  |
-| onFocusLost   | event:JSEvent                               |         | Fired when the calendar loses focus |
+| [onAction](checkbox.md#onaction)      | event:JSEvent                               |         | Fired when the enter key is hit     |
+| [onDataChange](checkbox.md#ondatachange)  | oldValue:Date, newValue:Date, event:JSEvent | Boolean | Fired when the value is changed     |
+| [onFocusGained](checkbox.md#onfocusgained) | event:JSEvent                               |         | Fired when the calendar gets focus  |
+| [onFocusLost](checkbox.md#onfocuslost)   | event:JSEvent                               |         | Fired when the calendar loses focus |
 
-## Checkbox API
+## Methods Summary
 
 The component offers the following API methods:
 
-| Method       | Parameters | Return | Description                       |
-| ------------ | ---------- | ------ | --------------------------------- |
-| requestFocus |            |        | Sets the focus to this component. |
+| Method        | Parameters | Return | Description                                                                                           |
+| ------------- | ---------- | ------ | ----------------------------------------------------------------------------------------------------- |
+| [addStyleClass](checkbox.md#addstyleclass) |            |        | Add a style class to styleclass named property or other property marked as mainStyleClass in the spec |
+| [requestFocus](checkbox.md#requestfocus) |        |        | Sets the focus to this button. |
+
+
+## Properties Details
+
+### text
+
+### toolTipText
+
+### imageStyleClass
+
+## Events Details
+
+### onAction
+
+### onDataChange
+
+### onFocusGained
+
+### onFocusLost
+
+## Methods Details
+
+### requestFocus
+
+### addStyleClass

@@ -62,4 +62,5 @@ The component offers the following API methods:
 ## Methods Details
 
 ### requestFocus
+
 ### addStyleClass

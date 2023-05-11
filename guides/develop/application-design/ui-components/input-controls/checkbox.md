@@ -4,33 +4,26 @@ description:  Guide for using checkboxes in your applications
 
 # Checkbox
 
-
 ## Overview
 
+This guide will show how to use a checkbox in your applications. See how easy it is to drag and drop the checkboxes onto your forms and connect them to your business logic. Checkbox can be modified, styled and even changed at runtime.
 
-(can be changed to match your component:)
-
-  
-
-This guide will show how to use a checkbox in your applications. See how easy it is to drag and drop the checkbox onto your forms and connect them to your business logic. Checkbox can be modified, styled and even changed at runtime.
-
-  
 
 ## Get Started
 
-  
-  
+ In the [Form Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/form-editor.md), drag the Checkbox component from the Pallet onto the form.
+
+<figure><img src="../../../../images/exampleButton - Add Button (1).gif" alt=""><figcaption><p>Add Checkbox</p></figcaption></figure>
+
+{% hint style="info" %}
+If the component does not appear in the pallet, it means you do not have the Bootstrap Components package installed. Click "Get more components" at the top of the pallet to open the [Servoy Package Manager](../../../../../reference/readme\_servoycore/page-3/package-manager.md) and install it.
+{% endhint %} 
   
 
 ## Modifying a checkbox at Design-Time
 
-  
-
 The checkbox, like all components, have properties which can be modified at design-time to set the appearance and behavior of the component. Select the checkbox in the [Form Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/form-editor.md) to see a list of properties in the [Component Properties Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/component-properties-editor.md). Below are some common properties and how to set them at design-time.
 
-  
-  
-  
 
 ### Setting the text
 
