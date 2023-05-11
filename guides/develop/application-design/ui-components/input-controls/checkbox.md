@@ -20,14 +20,15 @@ If the component does not appear in the pallet, it means you do not have the Boo
 {% endhint %} 
   
 
-## Modifying a checkbox at Design-Time
+## Modifying a Checkbox at Design-Time
 
 The checkbox, like all components, have properties which can be modified at design-time to set the appearance and behavior of the component. Select the checkbox in the [Form Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/form-editor.md) to see a list of properties in the [Component Properties Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/component-properties-editor.md). Below are some common properties and how to set them at design-time.
 
 
 ### Setting the text
 
-The text displayed on a button can be modified by setting its [`text`]() property. Most often, this will just be plain text. In this case, just enter the value into the editor or directly on the component by double-clicking it. For more options open the [Text Property Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/text-property-editor.md).
+The text displayed on a checkbox can be modified by setting its [`text`](../../../../../reference/readme\_servoyextensions/ui-components/input-controls/checkbox.md#text) property. Most often, this will just be plain text. In this case, just enter the value into the editor or directly on the component by double-clicking it. For more options open the [Text Property Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/text-property-editor.md).
+
 
   
 
