@@ -8,11 +8,11 @@ Switch example:
 
 ## Table of contents
 
-* [Switch properties](switch.md#switch-properties)
-* [Switch events](switch.md#switch-events)
-* [Switch API](switch.md#switch-api)
+* [Switch properties](switch.md#properties-summary)
+* [Switch events](switch.md#events-summary)
+* [Switch API](switch.md#methods-summary)
 
-## Switch properties
+## Properties Summary
 
 The component has the following properties:
 
@@ -33,13 +33,60 @@ The component has the following properties:
 | tabSeq        | Number       | null    | The element's tab sequence                                                                                    |
 | visible       | Boolean      | true    | The visible property of the component, default true.                                                          |
 
-## Switch events
+## Events Summary
 
 | Event        | Params        | Return | Description                        |
 | ------------ | ------------- | ------ | ---------------------------------- |
-| onAction     | event:JSEvent |        | Fired when a switch is clicked     |
-| onDataChange | event:JSEvent |        | Fired when dataprovider is updated |
+| [onAction](switch.md#onaction)      | event:JSEvent |        | Fired when a switch is clicked     |
+| [onDataChange](switch.md#ondatachange)  | event:JSEvent |        | Fired when dataprovider is updated |
 
-## Switch API
+## Methods Summary
 
-Currently, the switch component has no API.
+The component offers the following API methods:
+
+| Method       | Parameters                             | Return | Description                       |
+| ------------ | -------------------------------------- | ------ | --------------------------------- |
+| [requestFocus](switch.md#requestfocus) | mustExecuteOnFocusGainedMethod:Boolean |        | Sets the focus to this component. |
+| [addStyleClass](switch.md#addstyleclass) |            |        | Add a style class to styleclass named property or other property marked as mainStyleClass in the spec |
+
+
+## Properties Details
+
+### animate
+
+### componentSize
+
+### dataProvider
+
+### enabled
+
+### handleWidth
+
+### label
+
+### labelWidth
+
+### offColor
+
+### onColor
+
+### onText
+
+### styleClass
+
+### tabSeq
+
+### visible
+
+## Events Details
+
+### onAction
+
+### onDataChange
+
+
+## Methods Details
+
+### requestFocus
+
+### addStyleClass
