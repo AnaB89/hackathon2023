@@ -34,7 +34,8 @@ See the reference docs for [Calendar Inline](../../../../../reference/readme\_se
 ### Setting the toolTipText
 
 Calendar Inline, like many components, can display tooltip messages when a user hovers their cursor. Most often, this will just be plain text that describes what will happen on-click. In this case, just enter the value into the editor. For more options open the [Text Property Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/text-property-editor.md).
-		
+
+<figure><img src="images/calendar_inline_tooltip.gif" alt=""><figcaption></figcaption></figure>		
 
 ### Styling
 
