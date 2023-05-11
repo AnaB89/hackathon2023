@@ -8,6 +8,8 @@ description: Guide for using Switch in your applications
 
 This guide will show how to use Switch in your applications. See how easy it is to drag and drop switches onto your forms and connect them to your business logic. Switch can be modified, styled and even changed at runtime.
 
+To see a live sample of the component you can go [here](https://samples-dev.samples.servoy-cloud.eu/solution/components?a=switchButton).
+
 ## Get Started
 
 In the [Form Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/form-editor.md), drag the Switch component from the Pallet onto the form.
