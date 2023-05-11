@@ -1,4 +1,3 @@
-
 ---
 description Guide for using the Calendar Inline in your applications
 ---
@@ -30,41 +29,33 @@ See the reference docs for [Calendar Inline](../../../../../reference/readme\_se
 
 ### Setting the toolTipText
 
-Calendar Inline, like many components, can display tooltip messages when a user hovers their cursor. Most often, this will just be plain text that describes what will happen on-click. In this case, just enter the value into the editor. For more options open the [Text Property Editor](..........referencereadme_servoycorepage-3object-editorstext-property-editor.md).
-
-### Setting the property3name (or delete if needed)
-				
+Calendar Inline, like many components, can display tooltip messages when a user hovers their cursor. Most often, this will just be plain text that describes what will happen on-click. In this case, just enter the value into the editor. For more options open the [Text Property Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/text-property-editor.md).
+		
 
 ### Styling
 
 Like all components, Calendar Inline can be styled using themes, variants and raw CSS. To apply any available style class, simply enter one or more space-delimited values for the `styleClass` property.
 
-
 ## Handling Events
-
-Change this to match your component - if the case 
 
 Like most components, Calendar Inline has events, which allow you to execute some logic when something happens in the UI. Of course, the most common event for a Calendar Inline is the `onDataChange` event, which is triggered when a date item is clicked.
 
-To Handle the event, double-click the value for the `onDataChange` property in the [Properties Editor](..........referencereadme_servoycorepage-3object-editorscomponent-properties-editor.md). You will see the [Method Selection Wizard](..........referencereadme_servoycorepage-3object-editorsmethod-selection-wizard.md). You'll have the option select an existing Method or create a new Method. The method will be called when the button's `onAction` event is fired and the [Event](..........referencereadme_servoycoredev-apiapplicationjsevent.md) object will be passed to it.
-
-
+To handle the event, double-click the value for the `onDataChange` property in the [Properties Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/component-properties-editor.md). You will see the [Method Selection Wizard](../../../../../reference/readme\_servoycore/page-3/object-editors/method-selection-wizard.md). You'll have the option select an existing Method or create a new Method. The method will be called when the component's `onDataChange` event is fired and the [Event](../../../../../reference/readme\_servoycore/dev-api/application/jsevent.md) object will be passed to it.
 
 ```javascript
-
-  @param {JSEvent} event
- 
-  @properties={typeid24,uuidA74C281C-00AA-46AA-BB38-500C937F2D1A}
- 
+/**
+ * @param {JSEvent} event
+ *
+ * @properties={typeid24,uuidA74C281C-00AA-46AA-BB38-500C937F2D1A}
+*/ 
 function onDataChange(oldValue, newValue, event) {
 	 application.output(newValue); //print out the date selected
 }
 ```
 
 {% hint style=info %}
-See the [componentName reference]() for comprehensive list of [all events]()
+See the [Calendar Inline reference](../../../../../reference/readme\_servoyextensions/ui-components/input-controls/inline-calendar.md) for comprehensive list of [all events](../../../../../reference/readme\_servoyextensions/ui-components/input-controls/inline-calendar.md#events-summary)
 {% endhint %}
-
 
 
 ## Modifying a Calendar Inline at Runtime
@@ -75,8 +66,6 @@ Calendar Inline, like many components, can be modified at runtime through code. 
 
 You can easily change the `enabled` state of a Calendar Inline at runtime.
 
-
-Change this to match your component 
 ```javascript
 function disableCalendar(){
 	elements.myCalendar.enabled = false;
@@ -87,14 +76,11 @@ function disableCalendar(){
 
 You can easily change the `visible` state of a Calendar Inline at runtime.
 
-
-Change this to match your component 
 ```javascript
 function hideCalendar(){
 	elements.myCalendar.visible = false;
 }
 ```
-
 
 ## Calling Calendar Inline API Methods
 
@@ -102,8 +88,7 @@ Like most components, a Calendar Inline has API methods which can be called from
 
 ### disableDates
 
-
-Disable some dates from selection in the calendar [`disableDates`]() method.
+Disable some dates from selection in the calendar [`disableDates`](../../../../../reference/readme\_servoyextensions/ui-components/input-controls/inline-calendar.md#disabledates) method.
 
 ```javascript
 function disableDates(){
@@ -115,24 +100,20 @@ function disableDates(){
 }
 ```
 
-
 ### Add CSS Style Class 
 
-You can easily add a style class to a Calendar Inline using the [`addStyleClass`]() method.
+You can easily add a style class to a Calendar Inline using the [`addStyleClass`](../../../../../reference/readme\_servoyextensions/ui-components/input-controls/inline-calendar.md#addstyleclass) method.
 
-
-Change this to match your component 
 ```javascript
-function AddStyleClassBadge(){
+function AddStyleClassCalendar(){
 	elements.myCalendar.addStyleClass('mycssclass');
 }
 ```
-
 
 ## Related Articles
 
 The following articles are recommended for additional reading
 
- [componentName Reference Documentation]()
- [Styling and Themes](....styling-and-themes)
- [Scripting the UI](......programming-guidescripting-the-ui)
+* [Calendar Inline Reference Documentation](../../../../../reference/readme\_servoyextensions/ui-components/input-controls/inline-calendar.md)
+* [Styling and Themes](../../styling-and-themes/)
+* [Scripting the UI](../../../programming-guide/scripting-the-ui/)
