@@ -4,7 +4,7 @@
 * [Hackathon](guides/hackathon/README.md)
   * [UI Components](guides/hackathon/README_ui-components.md)
     * [Buttons and Text](guides/hackathon/README_buttons-and-text.md)
-      * [Buttons](guides/hackathon/buttons.md)
+      * [Buttons](guides/develop/application-design/ui-components/buttons-and-text/buttons.md)
       <! -- * [Badge](guides/develop/application-design/ui-components/buttons-and-text/badge.md)-->
     * [Form Containers](guides/hackathon/README_form-containers.md)
     * [Input Controls](guides/hackathon/README_input-controls.md)
