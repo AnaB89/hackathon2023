@@ -99,7 +99,6 @@ function AddStyleClassBadge(){
 }
 ```
 
-
 ## Related Articles
 
 The following articles are recommended for additional reading:
