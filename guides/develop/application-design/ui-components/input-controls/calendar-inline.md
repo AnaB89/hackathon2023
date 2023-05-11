@@ -10,6 +10,9 @@ Calendar-Inline is an input control component. It allows a user us a date-picker
 Similar to the Calendar component, the Calendar-Inline provides a date-picker interface to choose a date. The key difference is that the Calendar component is an input field that the shows the date-picker in a popup only when clicked; whereas the Calendar Inline shows the date-picker directly on the form.
 Common use cases include selecting a value for a filter or search parameter.
 
+
+To see a live sample of the component you can go [here](https://samples-dev.samples.servoy-cloud.eu/solution/components?a=calendarinline).
+
 ## Get Started
 
 In the [Form Editor](../../../../../reference/readme\_servoycore/page-3/object-editors/form-editor.md), drag the Calendar-Inline component from the Pallet onto the form.
