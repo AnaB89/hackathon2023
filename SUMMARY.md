@@ -20,7 +20,7 @@
     * [UI Components](guides/develop/application-design/ui-components/README.md)
       * [Buttons and Text](guides/develop/application-design/ui-components/buttons-and-text/README.md)
         * [Button](guides/develop/application-design/ui-components/buttons-and-text/buttons.md)
-        <! -- * [Image](guides/develop/application-design/ui-components/buttons-and-text/image.md) -->
+        * [Image](guides/develop/application-design/ui-components/buttons-and-text/image.md)
         * [Dropdown](guides/develop/application-design/ui-components/buttons-and-text/dropdown.md)
         <! -- * [Badge](guides/develop/application-design/ui-components/buttons-and-text/badge-OLD.md) -->
       * [Form Containers](guides/develop/application-design/ui-components/form-containers.md)
